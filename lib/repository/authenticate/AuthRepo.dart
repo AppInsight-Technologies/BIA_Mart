@@ -7,6 +7,7 @@ import 'package:flutter_facebook_login_web/flutter_facebook_login_web.dart';
 //import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import '../../controller/mutations/cart_mutation.dart';
+import '../../controller/mutations/home_screen_mutation.dart';
 import '../../models/VxModels/VxStore.dart';
 import '../../constants/IConstants.dart';
 import '../../constants/features.dart';
@@ -63,6 +64,8 @@ class Auth {
             'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,picture,email&access_token=${token}');
         Map<String, dynamic> map = json.decode(graphResponse.body);
         _isnewUser(map["email"]).then((value) {
+          print("Type old....2..");
+
           _authresponse = returns(AuthData(code: graphResponse.statusCode,
               messege: "Login Success",
               status: true,
@@ -87,17 +90,22 @@ class Auth {
   Future<AuthData> googleLogin(returns) async {
     final response = await _googleSignIn.signIn();
     response!.authentication.then((value) {
-      _isnewUser(response.email).then((value) =>
-          returns(AuthData(code: 200,
-              messege: "Login Success",
-              status: true,
-              data: SocialAuthUser(email: response.email,
-                  firstName: response.displayName,
-                  id: value.apikey,
-                  lastName: "",
-                  name: response.displayName,
-                  picture: Picture(data: Data(url: response.photoUrl)),
-                  newuser: value.type=="old"?false:true))));
+      _isnewUser(response.email).then((value)
+      {
+        print("Type old....3..");
+        returns(AuthData(
+                code: 200,
+                messege: "Login Success",
+                status: true,
+                data: SocialAuthUser(
+                    email: response.email,
+                    firstName: response.displayName,
+                    id: value.apikey,
+                    lastName: "",
+                    name: response.displayName,
+                    picture: Picture(data: Data(url: response.photoUrl)),
+                    newuser: value.type == "old" ? false : true)));
+          });
 
     }).onError((error, stackTrace) {
       _authresponse = AuthData(code: 200, messege: error.toString(), status: false);
@@ -384,12 +392,20 @@ class Auth {
     };
     var _url = await api.Posturl("customer/email-login");
     var value = EmailResponse.fromJson(json.decode(_url));
+    print("Google Respose:....."+value.toString());
     if(value.status! && value.type == "old"){
+      print("Type old...."+value.type.toString());
       PrefUtils.prefs!.setString("apikey", value.apikey!);
       GroceStore store = VxState.store;
-      store.homescreen.data = null;
+     // store.homescreen.data = null;
+      print("Type old....1..");
+
       getuserProfile(onsucsess: (UserData ) {
         SetCartItem(CartTask.fetch ,onloade: (value){});
+        HomeScreenController(user: value.apikey ??
+            PrefUtils.prefs!.getString("ftokenid"),
+            branch: (VxState.store as GroceStore).userData.branch ?? "999",
+            rows: "0");
       }, onerror: {
       });
     }

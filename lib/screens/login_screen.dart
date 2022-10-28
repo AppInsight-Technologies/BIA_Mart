@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 import '../constants/api.dart';
 import 'package:new_gradient_app_bar/new_gradient_app_bar.dart';
 

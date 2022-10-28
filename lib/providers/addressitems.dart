@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:grocbay/constants/features.dart';
-import 'package:grocbay/models/VxModels/VxStore.dart';
+import '../../constants/features.dart';
+import '../../models/VxModels/VxStore.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../blocs/adress_bloc.dart';
 import 'package:http/http.dart' as http;

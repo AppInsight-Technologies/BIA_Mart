@@ -2,13 +2,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:getflutter/components/carousel/gf_carousel.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
-import 'package:grocbay/assets/images.dart';
-import 'package:grocbay/data/calculations.dart';
-import 'package:grocbay/generated/l10n.dart';
-import 'package:grocbay/helper/custome_calculation.dart';
-import 'package:grocbay/models/newmodle/product_data.dart';
-import 'package:grocbay/utils/ResponsiveLayout.dart';
+import '../../assets/ColorCodes.dart';
+import '../../assets/images.dart';
+import '../../data/calculations.dart';
+import '../../generated/l10n.dart';
+import '../../helper/custome_calculation.dart';
+import '../../models/newmodle/product_data.dart';
+import '../../utils/ResponsiveLayout.dart';
 import 'package:provider/provider.dart';
 import 'package:velocity_x/velocity_x.dart';
 

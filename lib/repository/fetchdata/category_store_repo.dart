@@ -1,5 +1,5 @@
-import 'package:grocbay/models/newmodle/store_banner.dart';
-import 'package:grocbay/models/newmodle/store_data.dart';
+import '../../models/newmodle/store_banner.dart';
+import '../../models/newmodle/store_data.dart';
 
 import '../../models/newmodle/category_store_modle.dart';
 import 'dart:convert';

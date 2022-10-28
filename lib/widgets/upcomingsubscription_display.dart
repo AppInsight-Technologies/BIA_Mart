@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/material.dart';
-import 'package:grocbay/models/newmodle/subscription_data.dart';
+import '../../models/newmodle/subscription_data.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../assets/ColorCodes.dart';

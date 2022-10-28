@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 import 'package:new_gradient_app_bar/new_gradient_app_bar.dart';
 
 import 'package:pinch_zoom_image_last/pinch_zoom_image_last.dart';

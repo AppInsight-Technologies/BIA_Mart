@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:grocbay/assets/images.dart';
+import '../../assets/images.dart';
 
 class AddressModle {
   bool? status;

@@ -1,4 +1,4 @@
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 
 import '../utils/prefUtils.dart';
 import '../constants/IConstants.dart';

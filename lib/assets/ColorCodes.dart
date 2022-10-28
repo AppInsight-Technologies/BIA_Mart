@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 import '../constants/IConstants.dart';
 
 class ColorCodes {

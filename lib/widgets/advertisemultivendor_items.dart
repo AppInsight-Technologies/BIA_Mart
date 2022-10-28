@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
-import 'package:grocbay/models/newmodle/home_page_modle.dart';
-import 'package:grocbay/models/newmodle/home_store_modle.dart';
-import 'package:grocbay/models/newmodle/store_banner.dart';
-import 'package:grocbay/utils/prefUtils.dart';
+import '../../assets/ColorCodes.dart';
+import '../../models/newmodle/home_page_modle.dart';
+import '../../models/newmodle/home_store_modle.dart';
+import '../../models/newmodle/store_banner.dart';
+import '../../utils/prefUtils.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:url_launcher/url_launcher.dart';

@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:grocbay/screens/splash_screen.dart';
+import '../../screens/splash_screen.dart';
 import '../constants/IConstants.dart';
 import 'package:in_app_update/in_app_update.dart';
 import 'package:package_info/package_info.dart';

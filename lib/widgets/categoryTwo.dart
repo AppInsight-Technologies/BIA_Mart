@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
-import 'package:grocbay/models/newmodle/home_page_modle.dart';
+import '../../assets/ColorCodes.dart';
+import '../../models/newmodle/home_page_modle.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../constants/IConstants.dart';

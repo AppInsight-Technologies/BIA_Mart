@@ -54,7 +54,7 @@ class Features {
   static bool isReturnOrExchange = false; //done
   static bool isRefundModule = true; //done
   static bool isOffersForHomepage = false; //done
-  static bool isRateOrderModule = false;
+  static bool isRateOrderModule = true;
   static bool isSplit = false; //done
   static bool callMeInsteadOTP = false;
   static bool mainBanneraboveSlider = false;
@@ -70,7 +70,7 @@ class Features {
   static bool ismultivendor = false;
   static bool view_all = false;
 
-  static bool isRateOrderProduct = false;
+  static bool isRateOrderProduct = true;
   static bool istestimonial = true;
   static bool isreview_filter = false;
   static bool issignintruecaller = false;

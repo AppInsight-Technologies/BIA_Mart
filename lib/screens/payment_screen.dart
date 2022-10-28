@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
-import 'package:grocbay/screens/promocode_screen.dart';
+import '../../screens/promocode_screen.dart';
 import '../../repository/authenticate/AuthRepo.dart';
 import 'package:intl/intl.dart';
 import '../../models/VxModels/VxStore.dart';

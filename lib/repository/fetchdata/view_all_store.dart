@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:grocbay/models/VxModels/VxStore.dart';
-import 'package:grocbay/models/newmodle/store_data.dart';
+import '../../models/VxModels/VxStore.dart';
+import '../../models/newmodle/store_data.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../../constants/IConstants.dart';

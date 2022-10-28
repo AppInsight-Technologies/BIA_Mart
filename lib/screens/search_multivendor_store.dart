@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:grocbay/controller/mutations/home_store_mutation.dart';
-import 'package:grocbay/controller/mutations/search_mutation.dart';
-import 'package:grocbay/controller/mutations/store_mutation.dart';
-import 'package:grocbay/models/newmodle/search_data.dart';
-import 'package:grocbay/widgets/MultivendorOffersWidget.dart';
+import '../../controller/mutations/home_store_mutation.dart';
+import '../../controller/mutations/search_mutation.dart';
+import '../../controller/mutations/store_mutation.dart';
+import '../../models/newmodle/search_data.dart';
+import '../../widgets/MultivendorOffersWidget.dart';
 
 import '../../controller/mutations/cart_mutation.dart';
 import '../controller/mutations/home_screen_mutation.dart';

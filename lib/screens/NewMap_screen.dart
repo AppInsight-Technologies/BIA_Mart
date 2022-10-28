@@ -8,7 +8,7 @@ import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_webservice/places.dart';
-import 'package:grocbay/widgets/mapwidget/NewMapComponent.dart';
+import '../../widgets/mapwidget/NewMapComponent.dart';
 import '../../constants/features.dart';
 import '../../controller/mutations/address_mutation.dart';
 import '../../models/VxModels/VxStore.dart';

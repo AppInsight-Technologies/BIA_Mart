@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
+import '../../assets/ColorCodes.dart';
 import '../assets/images.dart';
 import '../constants/IConstants.dart';
 import '../generated/l10n.dart';

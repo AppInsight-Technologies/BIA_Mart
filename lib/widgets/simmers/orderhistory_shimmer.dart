@@ -1,4 +1,4 @@
-import 'package:grocbay/assets/ColorCodes.dart';
+import '../../assets/ColorCodes.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:flutter/material.dart';
 class OrderHistoryShimmer extends StatelessWidget {

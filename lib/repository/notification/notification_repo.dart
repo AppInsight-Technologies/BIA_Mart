@@ -1,9 +1,9 @@
 
 import 'dart:convert';
 
-import 'package:grocbay/repository/api.dart';
-import 'package:grocbay/repository/authenticate/AuthRepo.dart';
-import 'package:grocbay/utils/prefUtils.dart';
+import '../../repository/api.dart';
+import '../../repository/authenticate/AuthRepo.dart';
+import '../../utils/prefUtils.dart';
 
 class NotificationRepo{
   clear()async{

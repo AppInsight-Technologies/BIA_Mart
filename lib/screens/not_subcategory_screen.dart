@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 import 'package:new_gradient_app_bar/new_gradient_app_bar.dart';
-import 'package:grocbay/rought_genrator.dart' as nav;
+import '../../rought_genrator.dart' as nav;
 import '../generated/l10n.dart';
 import 'package:provider/provider.dart';
 import '../rought_genrator.dart' ;

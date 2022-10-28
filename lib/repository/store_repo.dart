@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 
-import 'package:grocbay/models/newmodle/store_banner.dart';
-import 'package:grocbay/models/newmodle/store_data.dart';
+import '../../models/newmodle/store_banner.dart';
+import '../../models/newmodle/store_data.dart';
 import 'package:http/http.dart' as http;
 
 import 'api.dart';

@@ -1,8 +1,8 @@
   import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:grocbay/constants/features.dart';
-import 'package:grocbay/rought_genrator.dart';
+import '../../constants/features.dart';
+import '../../rought_genrator.dart';
 import '../controller/mutations/cart_mutation.dart';
 import '../models/VxModels/VxStore.dart';
 import '../models/newmodle/home_page_modle.dart';

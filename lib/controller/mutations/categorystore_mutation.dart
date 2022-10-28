@@ -1,6 +1,6 @@
-import 'package:grocbay/constants/IConstants.dart';
-import 'package:grocbay/models/VxModels/VxStore.dart';
-import 'package:grocbay/repository/fetchdata/home_store_repo.dart';
+import '../../constants/IConstants.dart';
+import '../../models/VxModels/VxStore.dart';
+import '../../repository/fetchdata/home_store_repo.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../../repository/fetchdata/category_store_repo.dart';

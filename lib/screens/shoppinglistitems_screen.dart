@@ -1,4 +1,4 @@
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 
 import '../controller/mutations/cart_mutation.dart';
 import '../models/VxModels/VxStore.dart';

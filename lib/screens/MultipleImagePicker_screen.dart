@@ -738,7 +738,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter_switch/flutter_switch.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../constants/api.dart';

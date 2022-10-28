@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:grocbay/controller/mutations/home_store_mutation.dart';
-import 'package:grocbay/rought_genrator.dart';
+import '../../controller/mutations/home_store_mutation.dart';
+import '../../rought_genrator.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/cupertino.dart';
 import 'package:geocoder/geocoder.dart' as gc;

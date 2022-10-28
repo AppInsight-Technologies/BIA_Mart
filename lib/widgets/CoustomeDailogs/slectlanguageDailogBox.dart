@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:grocbay/constants/IConstants.dart';
+import '../../constants/IConstants.dart';
 import '../../assets/ColorCodes.dart';
 import '../../controller/mutations/languagemutations.dart';
 import '../../models/VxModels/VxStore.dart';

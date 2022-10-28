@@ -6,7 +6,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:grocbay/models/VxModels/VxStore.dart';
+import '../../models/VxModels/VxStore.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../../controller/mutations/home_screen_mutation.dart';
 import '../rought_genrator.dart';

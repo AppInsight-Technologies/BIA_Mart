@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
+import '../../assets/ColorCodes.dart';
 import 'package:shimmer/shimmer.dart';
 class CustomerSurveyShimmer extends StatelessWidget {
   const CustomerSurveyShimmer({Key? key}) : super(key: key);

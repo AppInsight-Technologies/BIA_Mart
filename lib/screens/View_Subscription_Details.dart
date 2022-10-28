@@ -4,7 +4,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:grocbay/rought_genrator.dart';
+import '../../rought_genrator.dart';
 import '../../constants/features.dart';
 import '../../models/VxModels/VxStore.dart';
 import 'package:velocity_x/velocity_x.dart';

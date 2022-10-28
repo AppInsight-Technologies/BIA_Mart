@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:grocbay/widgets/shoppingList/dialogforitemCreateList.dart';
+import '../../widgets/shoppingList/dialogforitemCreateList.dart';
 import 'package:provider/provider.dart';
 import 'package:velocity_x/velocity_x.dart';
 

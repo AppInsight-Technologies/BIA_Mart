@@ -2300,7 +2300,7 @@ class _HomeScreenState extends State<HomeScreen> with Navigations{
                             if(Features.isFooter)
                               if (!Vx.isWeb)
                                 _footer(homedata),
-                           // if (Vx.isWeb) Footer(address: _address),
+                           if (Vx.isWeb) Footer(address: _address),
                           ],)
                             : SizedBox.shrink() :
                         SingleChildScrollView(

@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:grocbay/widgets/membershipWidget/membership_component.dart';
+import '../../widgets/membershipWidget/membership_component.dart';
 import '../rought_genrator.dart';
 
 class MembershipInfo with Navigations{

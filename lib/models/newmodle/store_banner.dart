@@ -1,4 +1,4 @@
-import 'package:grocbay/constants/IConstants.dart';
+import '../../constants/IConstants.dart';
 
 class StoreOfferbanner {
   int? status;

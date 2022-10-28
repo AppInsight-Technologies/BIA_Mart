@@ -1,7 +1,7 @@
 
 import 'dart:ui';
 
-import 'package:grocbay/constants/IConstants.dart';
+import '../../constants/IConstants.dart';
 
 class CategoryData {
   String? id;

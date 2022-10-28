@@ -1,4 +1,4 @@
-// import 'package:grocbay/rought_genrator.dart';
+// import '../../rought_genrator.dart';
 //
 // import  '../controller/payment/payment_web_html.dart' if (dart.library.html) 'dart:html' as html;
 // import '../controller/payment/payment_web_html.dart' if (dart.library.html)'dart:ui' as ui;
@@ -473,8 +473,8 @@
 // // import 'dart:io' as io;
 // //
 // // import 'package:flutter/material.dart';
-// // import 'package:grocbay/generated/l10n.dart';
-// // import 'package:grocbay/models/VxModels/VxStore.dart';
+// // import '../../generated/l10n.dart';
+// // import '../../models/VxModels/VxStore.dart';
 // // import 'package:velocity_x/velocity_x.dart';
 // // //import 'package:shared_preferences/shared_preferences.dart';
 // // import 'package:webview_flutter/webview_flutter.dart';

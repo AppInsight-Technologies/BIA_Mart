@@ -1,4 +1,4 @@
-import 'package:grocbay/models/newmodle/home_store_modle.dart';
+import '../../models/newmodle/home_store_modle.dart';
 import 'dart:convert';
 import '../api.dart';
 

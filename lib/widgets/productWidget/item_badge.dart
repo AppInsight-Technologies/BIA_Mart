@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
-import 'package:grocbay/assets/images.dart';
-import 'package:grocbay/generated/l10n.dart';
+import '../../assets/ColorCodes.dart';
+import '../../assets/images.dart';
+import '../../generated/l10n.dart';
 
 class ItemBadge extends StatelessWidget {
 

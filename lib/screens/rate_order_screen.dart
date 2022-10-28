@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 import '../assets/ColorCodes.dart';
 import '../assets/images.dart';
 import '../constants/IConstants.dart';

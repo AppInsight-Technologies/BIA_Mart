@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
-import 'package:grocbay/utils/ResponsiveLayout.dart';
+import '../../assets/ColorCodes.dart';
+import '../../utils/ResponsiveLayout.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ItemListShimmerWeb extends StatelessWidget {

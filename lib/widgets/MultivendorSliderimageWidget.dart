@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:getflutter/components/carousel/gf_carousel.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
-import 'package:grocbay/assets/images.dart';
-import 'package:grocbay/models/newmodle/home_page_modle.dart';
-import 'package:grocbay/rought_genrator.dart';
-import 'package:grocbay/utils/prefUtils.dart';
-import 'package:grocbay/widgets/SliderShimmer.dart';
+import '../../assets/ColorCodes.dart';
+import '../../assets/images.dart';
+import '../../models/newmodle/home_page_modle.dart';
+import '../../rought_genrator.dart';
+import '../../utils/prefUtils.dart';
+import '../../widgets/SliderShimmer.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
 

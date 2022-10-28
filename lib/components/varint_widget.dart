@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:grocbay/constants/features.dart';
-import 'package:grocbay/widgets/badge_discount.dart';
-import 'package:grocbay/widgets/flutter_flow/flutter_flow_theme.dart';
+import '../../constants/features.dart';
+import '../../widgets/badge_discount.dart';
+import '../../widgets/flutter_flow/flutter_flow_theme.dart';
 import '../../assets/ColorCodes.dart';
 import '../../assets/images.dart';
 import '../../constants/IConstants.dart';

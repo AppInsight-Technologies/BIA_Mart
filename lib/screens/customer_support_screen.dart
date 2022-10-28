@@ -2,9 +2,9 @@ import 'package:crisp/crisp_view.dart';
 import 'package:crisp/models/main.dart';
 import 'package:crisp/models/user.dart';
 import 'package:flutter/material.dart';
-import 'package:grocbay/constants/features.dart';
-import 'package:grocbay/models/VxModels/VxStore.dart';
-import 'package:grocbay/utils/prefUtils.dart';
+import '../../constants/features.dart';
+import '../../models/VxModels/VxStore.dart';
+import '../../utils/prefUtils.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../assets/ColorCodes.dart';

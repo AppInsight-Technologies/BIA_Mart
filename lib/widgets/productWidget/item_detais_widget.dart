@@ -1,15 +1,15 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
-import 'package:grocbay/assets/images.dart';
-import 'package:grocbay/constants/IConstants.dart';
-import 'package:grocbay/constants/features.dart';
-import 'package:grocbay/generated/l10n.dart';
-import 'package:grocbay/models/newmodle/product_data.dart';
-import 'package:grocbay/providers/branditems.dart';
-import 'package:grocbay/utils/ResponsiveLayout.dart';
-import 'package:grocbay/utils/prefUtils.dart';
+import '../../assets/ColorCodes.dart';
+import '../../assets/images.dart';
+import '../../constants/IConstants.dart';
+import '../../constants/features.dart';
+import '../../generated/l10n.dart';
+import '../../models/newmodle/product_data.dart';
+import '../../providers/branditems.dart';
+import '../../utils/ResponsiveLayout.dart';
+import '../../utils/prefUtils.dart';
 import 'package:provider/provider.dart';
 import 'package:readmore/readmore.dart';
 import 'package:share/share.dart';

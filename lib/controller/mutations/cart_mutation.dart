@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:grocbay/constants/IConstants.dart';
-import 'package:grocbay/models/newmodle/search_data.dart';
+import '../../constants/IConstants.dart';
+import '../../models/newmodle/search_data.dart';
 import 'package:provider/provider.dart';
 import '../../assets/ColorCodes.dart';
 import '../../constants/features.dart';

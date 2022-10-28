@@ -2,8 +2,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:grocbay/rought_genrator.dart';
-import 'package:grocbay/widgets/simmers/loyality_wallet_shimmer.dart';
+import '../../rought_genrator.dart';
+import '../../widgets/simmers/loyality_wallet_shimmer.dart';
 import 'package:provider/provider.dart';
 import 'package:velocity_x/velocity_x.dart';
 

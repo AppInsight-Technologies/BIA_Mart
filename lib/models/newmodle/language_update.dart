@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:grocbay/models/language.dart';
+import '../../models/language.dart';
 
 import '../../repository/api.dart';
 

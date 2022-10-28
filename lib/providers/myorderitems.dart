@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:grocbay/data/calculations.dart';
-import 'package:grocbay/models/VxModels/VxStore.dart';
-import 'package:grocbay/models/newmodle/cartModle.dart';
-import 'package:grocbay/models/newmodle/product_data.dart';
+import '../../data/calculations.dart';
+import '../../models/VxModels/VxStore.dart';
+import '../../models/newmodle/cartModle.dart';
+import '../../models/newmodle/product_data.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../constants/api.dart';
 import 'package:http/http.dart' as http;

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:grocbay/rought_genrator.dart';
+import '../../rought_genrator.dart';
 import '../models/newmodle/home_page_modle.dart';
 import '../generated/l10n.dart';
 import '../constants/IConstants.dart';

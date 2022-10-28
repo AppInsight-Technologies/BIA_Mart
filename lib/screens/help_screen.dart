@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocbay/models/VxModels/VxStore.dart';
+import '../../models/VxModels/VxStore.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../generated/l10n.dart';
 import '../constants/features.dart';

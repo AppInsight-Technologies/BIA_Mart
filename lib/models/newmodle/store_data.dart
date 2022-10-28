@@ -1,5 +1,5 @@
 
-import 'package:grocbay/constants/IConstants.dart';
+import '../../constants/IConstants.dart';
 
 class StoreData {
   int? status;

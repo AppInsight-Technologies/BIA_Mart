@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
+import '../../assets/ColorCodes.dart';
 import '../../assets/images.dart';
 import '../../generated/l10n.dart';
 import 'package:shimmer/shimmer.dart';

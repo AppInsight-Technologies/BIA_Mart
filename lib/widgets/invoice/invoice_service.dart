@@ -14,7 +14,7 @@ import '../../models/myordersfields.dart';
 import '../../providers/myorderitems.dart';
 import '../../utils/prefUtils.dart';
 import 'model.dart';
-import 'package:grocbay/constants/IConstants.dart';
+import '../../constants/IConstants.dart';
 
 class RowHeader {
   static const String item = 'Item';

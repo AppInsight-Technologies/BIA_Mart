@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:grocbay/models/newmodle/search_data.dart';
-import 'package:grocbay/models/newmodle/store_data.dart';
+import '../../models/newmodle/search_data.dart';
+import '../../models/newmodle/store_data.dart';
 
 import '../../constants/IConstants.dart';
 import '../../constants/features.dart';

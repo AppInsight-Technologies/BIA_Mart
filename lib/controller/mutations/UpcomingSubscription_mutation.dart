@@ -1,6 +1,6 @@
 
-import 'package:grocbay/constants/api.dart';
-import 'package:grocbay/models/newmodle/upcomingsubscription.dart';
+import '../../constants/api.dart';
+import '../../models/newmodle/upcomingsubscription.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../../constants/IConstants.dart';

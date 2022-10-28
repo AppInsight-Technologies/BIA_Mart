@@ -2,7 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:grocbay/widgets/flutter_flow/flutter_flow_theme.dart';
+import '../../widgets/flutter_flow/flutter_flow_theme.dart';
 import '../../repository/productandCategory/category_or_product.dart';
 import '../../widgets/SliderShimmer.dart';
 import '../../components/sellingitem_component.dart';

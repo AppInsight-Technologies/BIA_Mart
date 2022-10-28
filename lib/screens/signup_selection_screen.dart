@@ -15,6 +15,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import '../../models/newmodle/country_code.dart';
 import '../../utils/facebook_app_events.dart';
 import 'package:sign_in_apple/sign_in_apple.dart';
+import '../controller/mutations/home_screen_mutation.dart';
 import '../controller/mutations/login.dart';
 import '../models/VxModels/VxStore.dart';
 import '../models/newmodle/user.dart';
@@ -336,7 +337,10 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
         PrefUtils.prefs!.setString('LoginStatus', "true");
         PrefUtils.prefs!.setString("apikey",value.id!);
         _auth.getuserProfile(onsucsess: (value){
-
+          HomeScreenController(user: value.apiKey ??
+              PrefUtils.prefs!.getString("ftokenid"),
+              branch: (VxState.store as GroceStore).userData.branch ?? "999",
+              rows: "0");
         },onerror: (){
 
         });

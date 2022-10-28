@@ -1,4 +1,4 @@
-import 'package:grocbay/utils/network_cookie.dart';
+import '../../utils/network_cookie.dart';
 
 import '../constants/IConstants.dart';
 import 'package:http/http.dart' as http;

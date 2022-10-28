@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 import '../generated/l10n.dart';
 import 'package:package_info/package_info.dart';
 import '../constants/IConstants.dart';

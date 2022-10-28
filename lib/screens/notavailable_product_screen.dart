@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
-import 'package:grocbay/components/sellingitem_component.dart';
-import 'package:grocbay/constants/features.dart';
-import 'package:grocbay/models/newmodle/product_data.dart';
+import '../../components/sellingitem_component.dart';
+import '../../constants/features.dart';
+import '../../models/newmodle/product_data.dart';
 
 import 'package:velocity_x/velocity_x.dart';
 

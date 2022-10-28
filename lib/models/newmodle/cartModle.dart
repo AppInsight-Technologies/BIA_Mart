@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 
 class CartItem {
   String? restaurantName;

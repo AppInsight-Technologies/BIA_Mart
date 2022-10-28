@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
+import '../../assets/ColorCodes.dart';
 import 'package:hive/hive.dart';
 import 'package:shimmer/shimmer.dart' as shimmer;
 import 'package:velocity_x/velocity_x.dart';

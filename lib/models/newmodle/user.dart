@@ -1,8 +1,8 @@
 // import 'package:geocoder/model.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:grocbay/models/newmodle/address.dart';
-import 'package:grocbay/models/newmodle/shoppingModel.dart';
-import 'package:grocbay/utils/prefUtils.dart';
+import '../../models/newmodle/address.dart';
+import '../../models/newmodle/shoppingModel.dart';
+import '../../utils/prefUtils.dart';
 
 import '../../constants/IConstants.dart';
 

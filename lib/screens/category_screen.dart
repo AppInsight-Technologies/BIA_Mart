@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:grocbay/controller/mutations/home_screen_mutation.dart';
-import 'package:grocbay/models/VxModels/VxStore.dart';
+import '../../controller/mutations/home_screen_mutation.dart';
+import '../../models/VxModels/VxStore.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../models/newmodle/home_page_modle.dart';
 import '../generated/l10n.dart';

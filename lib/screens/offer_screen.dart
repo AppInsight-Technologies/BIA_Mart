@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:grocbay/repository/productandCategory/category_or_product.dart';
+import '../../repository/productandCategory/category_or_product.dart';
 import '../../controller/mutations/cat_and_product_mutation.dart';
 import '../controller/mutations/cart_mutation.dart';
 import '../models/VxModels/VxStore.dart';

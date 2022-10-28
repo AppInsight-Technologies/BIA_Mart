@@ -2,15 +2,15 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:grocbay/assets/ColorCodes.dart';
-import 'package:grocbay/assets/images.dart';
-import 'package:grocbay/constants/IConstants.dart';
-import 'package:grocbay/constants/features.dart';
-import 'package:grocbay/generated/l10n.dart';
-import 'package:grocbay/utils/ResponsiveLayout.dart';
-import 'package:grocbay/utils/prefUtils.dart';
-import 'package:grocbay/widgets/footer.dart';
-import 'package:grocbay/widgets/header.dart';
+import '../../assets/ColorCodes.dart';
+import '../../assets/images.dart';
+import '../../constants/IConstants.dart';
+import '../../constants/features.dart';
+import '../../generated/l10n.dart';
+import '../../utils/ResponsiveLayout.dart';
+import '../../utils/prefUtils.dart';
+import '../../widgets/footer.dart';
+import '../../widgets/header.dart';
 
 import '../rought_genrator.dart';
 

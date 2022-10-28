@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:ui';
 
-import 'package:grocbay/rought_genrator.dart';
+import '../../rought_genrator.dart';
 
 import '../../constants/features.dart';
 

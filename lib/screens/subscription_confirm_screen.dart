@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
-import 'package:grocbay/constants/features.dart';
+import '../../constants/features.dart';
 import 'package:intl/intl.dart';
 import '../../models/VxModels/VxStore.dart';
 import 'package:velocity_x/velocity_x.dart';
