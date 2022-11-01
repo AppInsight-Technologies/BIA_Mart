@@ -116,6 +116,14 @@ class Auth {
 
   Future<AuthData?> phoneNumberAuth(mobile, Function(LoginData, AuthData) otp) async {
     Api api = Api();
+    print("Signature api:..."+api.Posturl("customer/pre-register").toString());
+    print("App Signature:...."+{
+      "mobileNumber": mobile,
+      "signature": Vx.isWeb ? "" : await SmsAutoFill().getAppSignature,
+      "tokenId": PrefUtils.prefs!.getString('ftokenid').toString(),
+      "branch": IConstants.isEnterprise && Features.ismultivendor?IConstants.refIdForMultiVendor:PrefUtils.prefs!.getString("branch")!,
+      "language_code" : IConstants.languageId,
+    }.toString());
     api.body = {
       "mobileNumber": mobile,
       "signature": Vx.isWeb ? "" : await SmsAutoFill().getAppSignature,
