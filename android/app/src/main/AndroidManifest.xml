@@ -23,7 +23,7 @@
     <application
 
         android:name="${applicationName}"
-        android:label="BIA Mart"
+        android:label="biamart"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher">
 

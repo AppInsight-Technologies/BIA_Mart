@@ -115,6 +115,7 @@ class Auth {
   }
 
   Future<AuthData?> phoneNumberAuth(mobile, Function(LoginData, AuthData) otp) async {
+
     Api api = Api();
     print("Signature api:..."+api.Posturl("customer/pre-register").toString());
     print("App Signature:...."+{

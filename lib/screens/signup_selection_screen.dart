@@ -1412,7 +1412,7 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                   ),
                 ),
               ),
-              Column(
+             /* Column(
                 children: [
                   Container(
                     margin: EdgeInsets.only(top: MediaQuery.of(context).size.height/45,left: 28.0,right:28,bottom:MediaQuery.of(context).size.height/45),
@@ -1466,7 +1466,7 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                             child: Container(
 
                               padding: EdgeInsets.only(
-                                /*left: 10.0, right: 5.0,*/top:10, bottom:10),
+                                *//*left: 10.0, right: 5.0,*//*top:10, bottom:10),
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
                                 border: Border.all(width: 0.5, color: ColorCodes.emailColor),),
@@ -1521,7 +1521,7 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                             child: Container(
 
                               padding: EdgeInsets.only(
-                                /*left: 10.0, right: 5.0,*/top:10, bottom:10),
+                                *//*left: 10.0, right: 5.0,*//*top:10, bottom:10),
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
                                 border: Border.all(width: 0.5, color: ColorCodes.emailColor),),
@@ -1546,9 +1546,9 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                                           color: ColorCodes.signincolor),
                                     ),
                                     //Image.asset(Images.googleImg,width: 20,height: 30,),
-                                    /*SizedBox(
+                                    *//*SizedBox(
                                       width: 14,
-                                    ),*/
+                                    ),*//*
                                   ],
                                 ),
                               ),
@@ -1588,9 +1588,9 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                                   //  PrefUtils.prefs!.setString('LastName', "");
                                   //  PrefUtils.prefs!.setString('Email', response.email);
 
-                                  /*Navigator.pushNamedAndRemoveUntil(
-                                  context, HomeScreen.routeName, (route) => false);*/
-                                  Navigation(context, /*name: Routename.Home,*/ navigatore: NavigatoreTyp.homenav);
+                                  *//*Navigator.pushNamedAndRemoveUntil(
+                                  context, HomeScreen.routeName, (route) => false);*//*
+                                  Navigation(context, *//*name: Routename.Home,*//* navigatore: NavigatoreTyp.homenav);
                                 },onerror: (message){
                                   Navigator.of(context).pop();
                                   Fluttertoast.showToast(msg: message);
@@ -1603,9 +1603,9 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                                 },onerror: (){
 
                                 });
-                                /*Navigator.pushNamedAndRemoveUntil(
-                                context, HomeScreen.routeName, (route) => false);*/
-                                Navigation(context, /*name: Routename.Home,*/ navigatore: NavigatoreTyp.homenav);
+                                *//*Navigator.pushNamedAndRemoveUntil(
+                                context, HomeScreen.routeName, (route) => false);*//*
+                                Navigation(context, *//*name: Routename.Home,*//* navigatore: NavigatoreTyp.homenav);
                                 ///navigatev to home page
                               }
 
@@ -1620,14 +1620,14 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                             // shadowColor: Colors.grey,
                             child: Container(
                               padding: EdgeInsets.only(
-                                /*left: 10.0, right: 5.0,*/top:10, bottom:10),
+                                *//*left: 10.0, right: 5.0,*//*top:10, bottom:10),
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
                                 border: Border.all(width: 0.5, color: ColorCodes.emailColor),),
                               child:
                               Padding(
-                                padding: EdgeInsets.only(/*right:10,*///MediaQuery.of(context).size.width/10,//30.0,
-                                  left:10,/*MediaQuery.of(context).size.width/12,*/),
+                                padding: EdgeInsets.only(*//*right:10,*//*//MediaQuery.of(context).size.width/10,//30.0,
+                                  left:10,*//*MediaQuery.of(context).size.width/12,*//*),
                                 child: Center(
                                   child: Row(
                                     crossAxisAlignment: CrossAxisAlignment.center,
@@ -1671,14 +1671,14 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                               // shadowColor: Colors.grey,
                               child: Container(
                                 padding: EdgeInsets.only(
-                                  /*left: 10.0, right: 5.0,*/top:10, bottom:10),
+                                  *//*left: 10.0, right: 5.0,*//*top:10, bottom:10),
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(4.0),
                                   border: Border.all(width: 0.5, color: ColorCodes.emailColor),),
                                 child:
                                 Padding(
-                                  padding: EdgeInsets.only(/*right:10,*///MediaQuery.of(context).size.width/10,//30.0,
-                                    left:10,/*MediaQuery.of(context).size.width/12,*/),
+                                  padding: EdgeInsets.only(*//*right:10,*//*//MediaQuery.of(context).size.width/10,//30.0,
+                                    left:10,*//*MediaQuery.of(context).size.width/12,*//*),
                                   child: Center(
                                     child: Row(
                                       crossAxisAlignment: CrossAxisAlignment.center,
@@ -1712,7 +1712,7 @@ class SignupSelectionScreenState extends State<SignupSelectionScreen> with Navig
                   ),
 
                 ],
-              ),
+              ),*/
               SizedBox(
                 height: 10.0,
               )

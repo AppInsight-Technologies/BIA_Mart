@@ -105,7 +105,7 @@ Future<List<CategoryData>> getSubNestcategory(String catid,/* Function(List<Cate
       "branch": PrefUtils.prefs!.getString("branch")??"999",
       "user": PrefUtils.prefs!.getString("apiKey") ?? PrefUtils.prefs!.getString("tokenid")!,
       "language_id": IConstants.languageId,//"0",
-      "type" : type.toString(),
+      "type" : /*type.toString()*/"0",
       "ref": IConstants.refIdForMultiVendor.toString(),
       "branchtype": IConstants.branchtype.toString(),
     };

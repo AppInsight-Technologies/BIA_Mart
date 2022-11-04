@@ -99,6 +99,11 @@ class _HomeScreenState extends State<HomeScreen> with Navigations{
       });
     }
 
+    // HomeScreenController(user: (VxState.store as GroceStore).userData.id ??
+    //     PrefUtils.prefs!.getString("tokenid"),
+    //     branch: (VxState.store as GroceStore).userData.branch ?? "999",
+    //     rows: "0");
+
     auth.getuserProfile(onsucsess: (value){
       HomeScreenController(user: PrefUtils.prefs!.getString("apikey") ??
           PrefUtils.prefs!.getString("tokenid"),

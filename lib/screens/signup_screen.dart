@@ -7,6 +7,7 @@ import 'package:http/http.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../assets/images.dart';
+import '../controller/mutations/home_screen_mutation.dart';
 import '../controller/mutations/login.dart';
 import '../models/VxModels/VxStore.dart';
 import '../models/newmodle/user.dart';
@@ -543,6 +544,10 @@ else {
     }
     else if (PrefUtils.prefs!.getString("isdelivering").toString() == "true") {
       debugPrint("homenav....2");
+      HomeScreenController(user: (VxState.store as GroceStore).userData.id ??
+          PrefUtils.prefs!.getString("tokenid"),
+          branch: (VxState.store as GroceStore).userData.branch ?? "999",
+          rows: "0");
       Navigation(context, navigatore: NavigatoreTyp.homenav);
     }
     else {
@@ -554,6 +559,10 @@ else {
       PrefUtils.prefs!.setString("ismap", "true");
       PrefUtils.prefs!.setString("isdelivering", "true");
       debugPrint("homenav....3");
+      HomeScreenController(user: (VxState.store as GroceStore).userData.id ??
+          PrefUtils.prefs!.getString("tokenid"),
+          branch: (VxState.store as GroceStore).userData.branch ?? "999",
+          rows: "0");
       Navigation(context, navigatore: NavigatoreTyp.homenav);
     }
     }, onerror: (message){
@@ -618,6 +627,10 @@ debugPrint("add primary...."+{
           }
           else{
             debugPrint("homenav....4");
+            HomeScreenController(user: (VxState.store as GroceStore).userData.id ??
+                PrefUtils.prefs!.getString("tokenid"),
+                branch: (VxState.store as GroceStore).userData.branch ?? "999",
+                rows: "0");
             Navigation(context, navigatore: NavigatoreTyp.homenav);
             //Navigator.pushNamedAndRemoveUntil(context, HomeScreen.routeName, (route) => false);
           }
@@ -626,6 +639,10 @@ debugPrint("add primary...."+{
         }
         else if(PrefUtils.prefs!.getString("isdelivering").toString()=="true"){
           debugPrint("homenav....5");
+          HomeScreenController(user: (VxState.store as GroceStore).userData.id ??
+              PrefUtils.prefs!.getString("tokenid"),
+              branch: (VxState.store as GroceStore).userData.branch ?? "999",
+              rows: "0");
           Navigation(context, navigatore: NavigatoreTyp.homenav);
           //Navigator.pushNamedAndRemoveUntil(context, HomeScreen.routeName, (route) => false);
 
@@ -638,6 +655,10 @@ debugPrint("add primary...."+{
           PrefUtils.prefs!.setString("longitude", PrefUtils.prefs!.getString("restaurant_long")!);
           PrefUtils.prefs!.setString("ismap", "true");
           PrefUtils.prefs!.setString("isdelivering", "true");
+          HomeScreenController(user: (VxState.store as GroceStore).userData.id ??
+              PrefUtils.prefs!.getString("tokenid"),
+              branch: (VxState.store as GroceStore).userData.branch ?? "999",
+              rows: "0");
           Navigation(context, navigatore: NavigatoreTyp.homenav);
           //Navigator.pushNamedAndRemoveUntil(context, HomeScreen.routeName, (route) => false);
 
@@ -795,6 +816,10 @@ debugPrint("add primary...."+{
     return WillPopScope(
       onWillPop: () async{
         debugPrint("homenav....7");
+        HomeScreenController(user: (VxState.store as GroceStore).userData.id ??
+            PrefUtils.prefs!.getString("tokenid"),
+            branch: (VxState.store as GroceStore).userData.branch ?? "999",
+            rows: "0");
         Navigation(context, navigatore: NavigatoreTyp.homenav);
         return false;
       },
@@ -816,6 +841,10 @@ debugPrint("add primary...."+{
              /* Navigator.of(context).pop();
               Navigator.of(context).pop();*/
               debugPrint("homenav....8");
+              HomeScreenController(user: (VxState.store as GroceStore).userData.id ??
+                  PrefUtils.prefs!.getString("tokenid"),
+                  branch: (VxState.store as GroceStore).userData.branch ?? "999",
+                  rows: "0");
               Navigation(context, navigatore: NavigatoreTyp.homenav);
             },
           ),
