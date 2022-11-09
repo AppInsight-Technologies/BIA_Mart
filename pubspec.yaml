@@ -84,6 +84,8 @@ dependencies:
     sizer:
     razorpay_flutter:
     #  google_maps: ^3.4.1
+
+
     flutter_google_places_web:
     google_maps_flutter_web:
     country_pickers:
