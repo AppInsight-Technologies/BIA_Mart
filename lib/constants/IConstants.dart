@@ -92,5 +92,5 @@ class IConstants {
   static final deliverylocationmain = ValueNotifier<String>("");
   static final currentdeliverylocation = ValueNotifier<String>("");
   static String storename = "";
-  static int branchtype = 1;
+  static int branchtype = 0;
 }
